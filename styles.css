@@ -38,7 +38,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #FC4A1A; /* Hover color red */
+    background-color: #f793c5; /* Hover color red */
     transform: scale(1.05);
 }
 
