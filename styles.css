@@ -1,0 +1,68 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    color: rgba(21,80,118,255);
+    padding: 1.5rem 0;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-left: 3.2rem;
+    margin-right: 3.2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    background-color: rgba(21,80,118,255); /* Teal button color */
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #FC4A1A; /* Hover color red */
+    transform: scale(1.05);
+}
+
+main {
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    header {
+        font-size: 2rem;
+    }
+
+    nav a {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+
+    main {
+        padding: 2rem 1rem;
+    }
+}
